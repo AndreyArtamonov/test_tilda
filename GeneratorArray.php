@@ -11,7 +11,7 @@ class GeneratorArray
 
 	public function __construct()
 	{
-		$this->excluded = [1];
+		$this->excluded = [];
 		$this->array = [];
 	}
 
